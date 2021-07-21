@@ -16,6 +16,4 @@ fn main() {
   print!("pattern:\t {}\npath:\t\t {}", &args.pattern, str_path);
 
   test::hej();
-fn main() {
-  
 }
