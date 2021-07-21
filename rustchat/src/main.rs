@@ -1,3 +1,5 @@
+mod test;
+
 struct Cli {
   pattern: String,
   path: std::path::PathBuf,
@@ -12,5 +14,7 @@ fn main() {
     path: std::path::PathBuf::from(path),
   }; 
   print!("pattern:\t {}\npath:\t\t {}", &args.pattern, str_path);
+
+  test::hej();
   
 }
